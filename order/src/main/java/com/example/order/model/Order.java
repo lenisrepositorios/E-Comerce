@@ -3,6 +3,8 @@ package com.example.order.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "orders")
 @AllArgsConstructor
